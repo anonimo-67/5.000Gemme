@@ -45,13 +45,6 @@
     button:active {
       background: #1e7e34;
     }
-
-    #message {
-      margin-top: 20px;
-      font-size: 20px;
-      color: red;
-      display: none;
-    }
   </style>
 </head>
 
@@ -59,13 +52,12 @@
 
   <div class="container">
     <h1>🎁 Ricevi 5.000 gemme</h1>
-    <button onclick="mostraMessaggio()">Clicca qui</button>
-    <div id="message">suca</div>
+    <button onclick="vaiPagina()">Clicca qui</button>
   </div>
 
   <script>
-    function mostraMessaggio() {
-      document.getElementById("message").style.display = "block";
+    function vaiPagina() {
+      window.location.href = "suca.html";
     }
   </script>
 
